@@ -208,7 +208,7 @@ body{
 
 /*Media query desktop*/
 
-@media screen and (min-width:1400px){
+@media screen and (min-width:1200px){
   .header{
     width: 90%;
     height: 100px;
