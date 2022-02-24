@@ -71,9 +71,9 @@ body{
   justify-content: center;
 }
 
-.ft-icon{
-  position: relative;
-  left: -500px;
+
+.txt1{
+  margin-left: -5px;
 }
 
 .features-txt{
@@ -184,6 +184,7 @@ body{
   position: relative;
   left: 50px;
 }
+
 
 
 .ft-icon{
