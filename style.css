@@ -8,10 +8,13 @@ body{
   display:flex;
   justify-content: center;
   margin-top: 15px; 
+ 
 }
 
 .icon-txt{
   font-size: 40px;
+  text-align: center;
+ 
 }
 
 .navbar{
@@ -44,7 +47,7 @@ body{
 .inputform-txt{
   width: 80%;
   height: 25px;
-  margin: 15px 5px;
+  margin: 15px 10px 10px 20px;
   border: none;
   border-radius: 5px;
   
@@ -61,8 +64,9 @@ body{
 }
 
 #features{
-  width: 90%;
+  width: 100%;
   margin-bottom: 15px;
+  margin-left: -90px;
 }
 
 .features-list{
@@ -72,13 +76,21 @@ body{
 }
 
 
+
+
 .txt1{
   margin-left: -5px;
 }
 
 .features-txt{
   width: 100%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+}
+
+.features-txt p{
+  margin: 0px 10px 30px -110px;
 }
 
 #how_it_works{
@@ -173,10 +185,23 @@ body{
   }
 }
 
+#features{
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  }
+
+#ft-icon{
+  display: flex;
+  position: relative;
+  left: 0px;
+}
+
 .features-list{
   align-items: flex-start;
   justify-content: flex-start;
-  margin: 10px 60px;
+  margin: 10px 160px 10px 50px;
 }
 
 .features-txt{
